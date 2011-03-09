@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height:100%;
+}
+
+body {
+  color: black;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+}
+
+/* # Header # */
+.superHeader {
+  color: white;
+  background-color: rgb(100,135,220);
+  height: 1.6em;
+}
+
+.superHeader img { vertical-align: bottom; }
+
+.superHeader a {
+  color: white;
+  background-color: transparent;
+  font-size: 91%;
+  margin: 0;
+  padding: 0 0.5ex 0 0.5ex;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.superHeader div {
+  position: absolute;
+  top: 0.40ex;
+}
+
+.superHeader .left { left: 0.4em; }
+.superHeader .right { right: 0.4em; }
+
+.midHeader {
+  color: rgb(39,78,144);
+  background-color: #D9D8D1;
+  border:none;
+  height: 25px;
+  padding: 8px;
+}
+
+.midHeader .left { float: left; }
+.midHeader .right { float: right; }
+
+.headerTitle {
+  font-size: 150%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+#headerSubTitle {
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 1em;
+}
+
+.headerTitle a { color: black; }
+.headerTitle a:hover { text-decoration: none; }
+
+.superHeader .highlight {
+  color: rgb(253,160,91);
+  background-color: transparent;
+}
+
+/* new horiz menu stuff # */
+
+#menu {
+  width: 100%;
+  clear: both;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #dddddd;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0.3em;
+  list-style-type: none;
+  list-style-image: none;
+  border: 0;
+}
+
+#menu li {
+  display: inline;
+  white-space: nowrap;
+  line-height: 1.6em;
+}
+
+.thisPage, .thisPage a {
+  color: black!important;
+  background-color: transparent;
+  padding-left: 0;
+}
+
+#menu li.thisPage a {
+  color: black!important;
+  font-weight: bold;
+}
+
+#menu ul li a {
+  margin: 0;
+  padding: 0.1em 1ex 0.1em 1ex;
+  color: #336699;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1em;
+  border: 0;
+}
+#menu ul li a:hover {
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* # Main Copy # */
+#main-copy {
+  max-width: 70em;
+  color: black;
+  background-color: transparent;
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 0 auto 0 2em;
+  padding: 1em 3em 2em 1em;
+  border: 0;
+}
+
+#bodyText {
+  margin: 0 0 0 15.5em;
+  padding: 2mm 5mm 2mm 5mm;
+}
+
+#main-copy p {
+  margin: 1em 1ex 1em 1ex !important; /* Need !important so troff-generated pages don't look totally squezed */
+  padding: 0;
+}
+
+#main-copy ul {
+  margin-bottom: 1em !important; /* Need !important so troff-generated pages don't look totally squezed */
+}
+
+#main-copy a {
+  color: #369;
+  background-color: transparent;
+}
+
+#main-copy a:hover {
+  color: #369;
+}
+
+#main-copy h1, #main-copy h2 {
+  color: #369;
+  background-color: transparent;
+  font-size: 145.5%;
+  font-weight: bold;
+  margin: 1em 0 0 0;
+  padding: 0 0 0.5ex 0.6ex;
+  border: none;
+}
+
+#main-copy h2 {
+  font-size: 115.5%;
+  border-bottom: 1px solid rgb(0,102,204);
+}
+
+#main-copy .topOfPage {
+  color: rgb(0,102,204);
+  background-color: transparent;
+  font-size: 91%;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 3ex 1ex 0 0;
+  padding: 0;
+  float: right;
+}
+
+dl {
+  margin: 1em 1ex 2em 1ex;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0 0 2em 2em;
+  padding: 0;
+}
+
+/* # Footer # */
+#footer {
+  color: #555;
+  background-color: #D9D8D1;
+  height: 17px;
+  padding: 4px 8px;
+  clear: both;
+}
+
+#footer .left {
+  text-align: left;
+  line-height: 17px;
+  float: left;
+  clear: left;
+}
+
+#footer .right {
+  text-align: right;
+  line-height: 17px;
+}
+
+#footer .left a {
+  color: #555;
+  font-style: italic;
+}
+
+/* RSS/Atom */
+
+#footer a.rss_logo {
+	float: right;
+	padding: 3px 0px;
+	width: 35px;
+	line-height: 10px;
+	border: 1px solid;
+	border-color: #fcc7a5 #7d3302 #3e1a01 #ff954e;
+	color: #ffffff;
+	background-color: #ff6600;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 70%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#footer a.rss_logo:hover {
+	background-color: #ee5500;
+}
+
+#footer a.rss_logo.generic {
+	background-color: #ff8800;
+}
+
+#footer a.rss_logo.generic:hover {
+	background-color: #ee7700;
+}
+
+/* GENERAL */
+
+table {
+  border: solid 1px black;
+}
+th {
+  background-color: #abc;
+  border: solid 1px black;
+   text-align: center;
+}
+td {
+  background-color: #def;
+  border: solid 1px black;
+}
+
+hr {
+  border-width: 0px 0px 0.1em 0px;
+  border-color: black;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px solid #ddd;
+  cursor: help;
+  margin: 0;
+  padding: 0 0 0.4px 0;
+}
+
+pre {
+  margin-left: 2em; 
+  font-size: 1.2em;
+}
+
+blockquote {
+  border-left: 1px solid blue;
+  font-style: italic;
+}
+
+.smallCaps {
+  font-size: 110%;
+  font-variant: small-caps;
+}
+
+.doNotDisplay { display: none; }
+
+
+.notify_errors,
+.notify_notes,
+.notify_success { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+ 
+.notify_errors { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notify_notes { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.notify_success { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.notify_errors a { color: #8a1f11; }
+.notify_notes a { color: #514721; }
+.notify_success a { color: #264409; }
+
+
+/* # Page/Handler specific # */
+h1.dir-list-head, ul.dir-list {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+ul.sitemap-list a {
+  text-transform: capitalize;
+}

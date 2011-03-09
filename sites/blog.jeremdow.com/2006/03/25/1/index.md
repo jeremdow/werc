@@ -1,0 +1,4 @@
+Internet Explorer 7.0 - disappointing so far...
+=========================================
+
+I just downloaded and installed "Internet Explorer 7.0 for Windows XP SP2 Beta 2 Preview" - and I have to say I'm more than a little disappointed. PC magazine agrees with me, you can read their full review [here](http://www.pcmag.com/article2/0,1895,1920656,00.asp). While offering some long overdue improvements over IE6, most notably the smaller footprint, the newest version of Microsoft's browser is hardly innovative, me-too features like tabbed browsing and live bookmarks abound. Maybe once Vista is (finally) released, it will get better - but I'd definitely steer clear of this beta and stick with Firefox for now. But, if you really want to try it, you can download it [here](http://www.microsoft.com/windows/ie/ie7/default.mspx).
