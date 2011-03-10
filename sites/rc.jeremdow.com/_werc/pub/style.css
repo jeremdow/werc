@@ -1,11 +1,3 @@
-* {
-  margin: 0;
-}
-
-html, body {
-  height:100%;
-}
-
 body {
   color: black;
   background-color: white;
@@ -44,15 +36,18 @@ a:hover { text-decoration: underline; }
 .superHeader .right { right: 0.4em; }
 
 .midHeader {
-  color: rgb(39,78,144);
   background-color: #D9D8D1;
-  border:none;
-  height: 25px;
-  padding: 8px;
+  border: none;
+  /*height: 25px;
+  padding: 8px;*/
+  height: 1.7em;
+  padding: 0.8em;
 }
 
 .midHeader .left { float: left; }
 .midHeader .right { float: right; }
+
+/* .midHeader .right form { margin-top: 2px; }idHeader .right form { margin-top: 2px; } */
 
 .headerTitle {
   font-size: 150%;
@@ -164,7 +159,7 @@ a:hover { text-decoration: underline; }
 #main-copy h1, #main-copy h2 {
   color: #369;
   background-color: transparent;
-  font-size: 145.5%;
+  font-size: 140%;
   font-weight: bold;
   margin: 1em 0 0 0;
   padding: 0 0 0.5ex 0.6ex;
