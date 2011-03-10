@@ -2,5 +2,6 @@ http://rc.jeremdow.com/CV
 http://rc.jeremdow.com/about/
 http://rc.jeremdow.com/todo/
 http://rc.jeremdow.com/todo/archives
+http://rc.jeremdow.com/todo/css
 http://rc.jeremdow.com/todo/google
 http://rc.jeremdow.com/todo/mercurial

@@ -159,10 +159,10 @@ a:hover { text-decoration: underline; }
 #main-copy h1, #main-copy h2 {
   color: #369;
   background-color: transparent;
-  font-size: 140%;
+  font-size: 135%;
   font-weight: bold;
   margin: 1em 0 0 0;
-  padding: 0 0 0.5ex 0.6ex;
+  padding: 0 0 0.5ex 0;
   border: none;
 }
 
@@ -313,9 +313,16 @@ blockquote {
 
 /* # Page/Handler specific # */
 h1.dir-list-head, ul.dir-list {
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: bold;
+  list-style-type: none;
 }
+
+ul.dir-list li {
+  display: inline;
+  padding-right:1em;
+}
+
 ul.sitemap-list a {
-  text-transform: capitalize;
+  text-transform: none;
 }
