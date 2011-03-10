@@ -1,5 +1,5 @@
-	#sitesdir='/var/www/sites'
-    #formatter=(fltr_cache markdown)
+    #sitesdir='/var/www/sites'
+    formatter=(fltr_cache markdown)
     #sites_menu=(home/:rc.jeremdow.com blog:blog.jeremdow.com)
     #debug=()
 
