@@ -47,8 +47,6 @@ a:hover { text-decoration: underline; }
 .midHeader .left { float: left; }
 .midHeader .right { float: right; }
 
-/* .midHeader .right form { margin-top: 2px; }idHeader .right form { margin-top: 2px; } */
-
 .headerTitle {
   font-size: 150%;
   font-weight: bold;
