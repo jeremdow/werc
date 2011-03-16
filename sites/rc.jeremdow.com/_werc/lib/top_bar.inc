@@ -2,9 +2,9 @@
     <div class="left">
       <a href="http://rc.jeremdow.com">home</a>
 	  <a href="http://blog.jeremdow.com">blog</a>
-	  <a href="http://flickr.com/jeremdow">flickr</a>
-	  <a href="http://facebook.com/jeremdow">facebook</a>
-	  <a href="http://twitter.com/jeremdow">twitter</a>
+	  <a href="http://flickr.com/jeremdow" target="blank">flickr</a>
+	  <a href="http://facebook.com/jeremdow" target="blank">facebook</a>
+	  <a href="http://twitter.com/jeremdow" target="blank">twitter</a>
       <a href="http://git.jeremdow.com">git</a>
     </div>
 
