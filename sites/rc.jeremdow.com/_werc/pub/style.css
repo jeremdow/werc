@@ -70,7 +70,7 @@ a:hover { text-decoration: underline; }
 
 /* new horiz menu stuff # */
 
-#menu {
+.menu {
   width: 100%;
   clear: both;
   border: 0;
@@ -79,7 +79,15 @@ a:hover { text-decoration: underline; }
   background-color: #dddddd;
 }
 
-#menu ul {
+.menu.odd {
+  background-color: #edece6;
+}
+
+.menu.even {
+  background-color: #ffffff;
+}
+
+.menu ul {
   margin: 0;
   padding: 0.3em;
   list-style-type: none;
@@ -87,7 +95,7 @@ a:hover { text-decoration: underline; }
   border: 0;
 }
 
-#menu li {
+.menu li {
   display: inline;
   white-space: nowrap;
   line-height: 1.6em;
@@ -99,12 +107,12 @@ a:hover { text-decoration: underline; }
   padding-left: 0;
 }
 
-#menu li.thisPage a {
+.menu li.thisPage a {
   color: black!important;
   font-weight: bold;
 }
 
-#menu ul li a {
+.menu ul li a {
   margin: 0;
   padding: 0.1em 1ex 0.1em 1ex;
   color: #336699;
@@ -113,7 +121,7 @@ a:hover { text-decoration: underline; }
   font-size: 1em;
   border: 0;
 }
-#menu ul li a:hover {
+.menu ul li a:hover {
   color: black;
   text-decoration: none;
   text-transform: none;
