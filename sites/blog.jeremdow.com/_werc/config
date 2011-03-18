@@ -1,6 +1,5 @@
 masterSite=rc.jeremdow.com
 siteTitle='Jere`s blog'
 siteSubTitle='google, games, drupal, publishing'
-conf_enable_wiki
 conf_enable_blog
 conf_enable_comments
