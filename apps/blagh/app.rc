@@ -88,28 +88,19 @@ fn blagh_body {
 fn get_post_list {
     # /./->/|/ done to sort -t| and order by date
     # Note: $paths in blagh_dirs should not contain '/./' or '|'
-    eval ls -F $*^/./`{req_path_date}/ >[2]/dev/null | sed -n '/'^$forbidden_uri_chars^'/d; s,/\./,/|/,; /\/$/p' | sort -r '-t|' +1 | sed -e 's,/+\|/+,/,' -e $conf_max_posts_per_page^'q'
+    eval ls -F $*^/.`{req_path_date} >[2]/dev/null | sed -n '/'^$forbidden_uri_chars^'/d; s,/\./,/|/,; /\/$/p' | sort -r '-t|' +1 | sed -e 's,/+\|/+,/,' -e $conf_max_posts_per_page^'q'
 }
 
 fn req_path_date {
-    if(~ $req_path *.rss *.atom) {
-        echo [0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]
-    }
-    if not {
-        year=`{echo $req_path | awk -F'/' '{print $2}'}
-        month=`{echo $req_path | awk -F'/' '{print $3}'}
-        day =`{echo $req_path | awk -F'/' '{print $4}'}
-
-        if(~ $year '')
-            year='[0-9][0-9][0-9][0-9]'
-
-        if(~ $month '')
-            month='[0-9][0-9]'
-
-        if(~ $day '')
-            day='[0-9][0-9]'
-
-        echo $year/$month/$day
+    switch($req_path){
+        case /[0-9][0-9][0-9][0-9]/
+            echo $req_path[0-9][0-9]/[0-9][0-9]/
+        case /[0-9][0-9][0-9][0-9]/[0-9][0-9]/
+            echo $req_path[0-9][0-9]/
+        case /[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]/
+            echo $req_path
+        case *
+            echo /[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]/
     }
 }
 
