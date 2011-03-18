@@ -32,7 +32,7 @@ fn blagh_init {
             ll_add handlers_bar_left echo '<a href="'$blagh_uri'new_post">Make a new post</a>'
         }
 
-        if(~ $req_path $blagh_uri /[0-9][0-9][0-9][0-9]/ /*/[0-9][0-9]/ /*/*/[0-9][0-9]) {
+        if(~ $req_path $blagh_uri /[0-9][0-9][0-9][0-9]/ /*/[0-9][0-9]/ /*/*/[0-9][0-9]/) {
             handler_body_main=blagh_body
             u=$blagh_uri'index'
             extraHeaders=$"extraHeaders ^ \
