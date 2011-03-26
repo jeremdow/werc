@@ -21,12 +21,14 @@
     <!-- <div class="subHeader"><br></div> -->
 </div>
 
+<div class="menu">
 % if(! ~ $#handlers_bar_left 0) {
 %   for(h in $handlers_bar_left) {
 %       run_handler $$h
 %   }
     </div>
 % }
+</div>
 
 <div id="main-copy">
 
