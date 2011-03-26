@@ -341,3 +341,9 @@ ul.dir-list li {
 ul.sitemap-list a {
   text-transform: none;
 }
+
+/* # Blagh specific (custom) # */
+span.date {
+  float: right;
+  font-size: small;
+}
