@@ -220,26 +220,43 @@ dd {
 }
 
 #footer .left {
-  margin-left: 0.4em;
-  line-height: 1.6em;
-  text-align: left;
   float: left;
   clear: left;
+  margin-left: 0.4em;
+  text-align: left;
 }
 
 #footer .right {
+  float: right;
   margin-right: 0.4em;
-  line-height: 1.6em;
   text-align: right;
 }
 
 #footer .left a {
-  padding: 0.4em 1ex;
+  margin: 0 1ex;
   color: #555;
   font-style: italic;
 }
 
-/* RSS/Atom */
+#footer p {
+  margin: 0;
+  line-height: 1.6em;
+}
+
+/* # Search # */
+
+#search {
+  position: absolute;
+  top: 2.2em;
+  right: 1ex;
+  text-align: right;
+}
+
+#search p {
+  margin: 0;
+}
+
+/* # RSS/Atom  # */
 
 #footer a.rss_logo {
 	float: right;
@@ -247,7 +264,7 @@ dd {
 	padding: 0.4em;
   height: 1em;
 	width: 3.5em;
-	line-height: 1.1em;
+	line-height: 1em;
 	border: 1px solid;
 	border-color: #fcc7a5 #7d3302 #3e1a01 #ff954e;
 	color: #ffffff;
