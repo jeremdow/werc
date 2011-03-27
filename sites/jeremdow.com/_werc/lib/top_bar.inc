@@ -1,6 +1,6 @@
 <div class="superHeader">
   <div class="left">
-    <a href="http://rc.jeremdow.com">home</a>
+    <a href="http://jeremdow.com">home</a>
     <a href="http://blog.jeremdow.com">blog</a>
     <a href="http://profiles.google.com/jeremdow">profile</a>
     <a href="http://flickr.com/jeremdow" target="blank">flickr</a>
