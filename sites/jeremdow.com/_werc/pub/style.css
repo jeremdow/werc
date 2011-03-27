@@ -14,7 +14,7 @@ body {
   height: 1.6em;
 }
 
-.superHeader img { vertical-align: bottom; }
+.superHeader img { vertical-align: middle; }
 
 .superHeader a {
   color: white;
@@ -341,3 +341,10 @@ span.date {
   float: right;
   font-size: small;
 }
+
+a.feed {
+  position: absolute;
+  top: 4.7em;
+  right: 0.4em;
+}
+
