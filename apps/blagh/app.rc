@@ -82,7 +82,7 @@ fn blagh_body {
     }
     # XXX BUG! Markdown [references] break because multiple markdown documents are merged. Should format each blog post independently.
     # TODO: use fltr_cache directly, that can fix the previous bug plus provide a perf boost by caching title generation.
-    } | $formatter 
+    } | $formatter
 }
 
 fn get_post_list {
