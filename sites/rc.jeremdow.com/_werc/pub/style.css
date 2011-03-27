@@ -90,7 +90,7 @@ a:hover { text-decoration: underline; }
 
 .menu ul ul ul {
   position: static;
-  display: inline;
+  display: none;
 }
 
 .menu ul {
