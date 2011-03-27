@@ -1,1 +1,1 @@
-../../../rc.jeremdow.com/_werc/lib/footer.inc
+../../../jeremdow.com/_werc/lib/footer.inc

@@ -1,1 +1,1 @@
-../../../rc.jeremdow.com/_werc/lib/default_master.tpl
+../../../jeremdow.com/_werc/lib/default_master.tpl
