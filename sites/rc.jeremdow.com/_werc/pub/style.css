@@ -232,9 +232,12 @@ dd {
   text-align: right;
 }
 
+#footer a {
+  color: #555;
+}
+
 #footer .left a {
   margin: 0 1ex;
-  color: #555;
   font-style: italic;
 }
 
@@ -254,38 +257,6 @@ dd {
 
 #search p {
   margin: 0;
-}
-
-/* # RSS/Atom  # */
-
-#footer a.rss_logo {
-	float: right;
-  margin: 0.3em 0;
-	padding: 0.4em;
-  height: 1em;
-	width: 3.5em;
-	line-height: 1em;
-	border: 1px solid;
-	border-color: #fcc7a5 #7d3302 #3e1a01 #ff954e;
-	color: #ffffff;
-	background-color: #ff6600;
-	font-weight: bold;
-	font-family: sans-serif;
-	font-size: 70%;
-	text-align: center;
-	text-decoration: none;
-}
-
-#footer a.rss_logo:hover {
-	background-color: #ee5500;
-}
-
-#footer a.rss_logo.generic {
-	background-color: #ff8800;
-}
-
-#footer a.rss_logo.generic:hover {
-	background-color: #ee7700;
 }
 
 /* GENERAL */
