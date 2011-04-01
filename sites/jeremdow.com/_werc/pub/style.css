@@ -178,7 +178,7 @@ a:hover { text-decoration: underline; }
   border: none;
 }
 
-#main-copy h2 {
+#main-copy h2, #main-copy .post h1 {
   font-size: 115.5%;
   border-bottom: 1px solid rgb(0,102,204);
 }
