@@ -2,7 +2,6 @@
 % cat `{ get_lib_file top_bar.inc }
 
   <div id="search">
-    <p></p>
     <form action="http://www.google.com/cse" id="cse-search-box">
       <div>
         <input type="hidden" name="cx" value="003190056917202029185:vgjg7tvaiom" />
@@ -15,20 +14,21 @@
   </div>
 
   <div class="midHeader">
-  <div class="left">
     <h1 class="headerTitle"><a href="/">%($"siteTitle%) <span id="headerSubTitle">%($"siteSubTitle%)</span></a></h1>
   </div>
 
+  <div class="subHeader"><br></div>
 </div>
 
-<div class="menu">
 % if(! ~ $#handlers_bar_left 0) {
+    <div id="menu">
 %   for(h in $handlers_bar_left) {
+        <div>
 %       run_handler $$h
+        </div>
 %   }
     </div>
 % }
-</div>
 
 <div id="main-copy">
 
