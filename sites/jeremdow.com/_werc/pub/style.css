@@ -27,6 +27,7 @@ a:hover { text-decoration: underline; }
   line-height: 2.2em;
   margin: 0;
   padding: 1ex;
+  text-decoration: none;
 }
 
 .superHeader a:hover {
