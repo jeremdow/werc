@@ -369,7 +369,6 @@ input[type=text]:hover, input[type=text]:focus {
 
 .doNotDisplay { display: none; }
 
-
 .notify_errors,
 .notify_notes,
 .notify_success { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
