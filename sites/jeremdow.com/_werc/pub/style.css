@@ -5,6 +5,7 @@ body {
   font-size: normal;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 a { text-decoration: none; }
@@ -19,7 +20,7 @@ a:hover { text-decoration: underline; }
 
 .superHeader img { vertical-align: middle; }
 
-.superHeader a {
+.superHeader a, .superHeader a:visited {
   color: #CCC;
   background-color: transparent;
   font-size: 100%;
