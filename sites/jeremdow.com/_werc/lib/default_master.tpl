@@ -2,15 +2,20 @@
 % cat `{ get_lib_file top_bar.inc }
 
   <div id="search">
-    <form action="http://www.google.com/cse" id="cse-search-box">
-      <div>
-        <input type="hidden" name="cx" value="003190056917202029185:vgjg7tvaiom" />
-        <input type="hidden" name="ie" value="UTF-8" />
-        <input type="text" name="q" size="31" />
-        <input type="submit" name="sa" value="Search" />
-      </div>
+    <script type="text/javascript">
+      function googleSiteSearch() {
+        var searchSite = " jeremdow.com";
+        var searchString = document.searchform.searchstr.value;
+        if (searchString != "") {
+          searchString = searchString.replace(/ /g,"+");
+          window.location = 'http://www.google.com/search?q=site%3a' + searchSite + '+' + searchString;
+        }
+        return false;
+      }
+    </script>
+    <form name=searchform onsubmit="return false;">
+      <input type="text" name="searchstr" size=40> <input type="submit" value="Search" onclick="googleSiteSearch();">
     </form>
-    <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
   </div>
 
   <div class="midHeader">
