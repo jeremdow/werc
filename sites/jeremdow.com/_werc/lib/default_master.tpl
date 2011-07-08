@@ -5,7 +5,7 @@
     <div id="search">
       <script type="text/javascript">
         function googleSiteSearch() {
-          var searchSite = " jeremdow.com";
+          var searchSite = "jeremdow.com";
           var searchString = document.searchform.searchstr.value;
           if (searchString != "") {
             searchString = searchString.replace(/ /g,"+");
