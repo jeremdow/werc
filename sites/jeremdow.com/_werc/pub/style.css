@@ -1,8 +1,9 @@
-body {
+html, body {
   color: black;
   background-color: white;
   font-family: sans-serif;
   font-size: small;
+  height:100%;
   margin: 0;
   padding: 0;
   border: 0;
@@ -36,7 +37,12 @@ a:hover { text-decoration: underline; }
   background-color: #5a5a5a;
 }
 
-.superHeader a.active { font-weight:bold; }
+.superHeader a.thisPage{
+  color: white!important;
+  font-weight:bold;
+  border-top: 2px solid #DD4B39;
+  padding: .8ex 1ex 1ex;
+}
 
 .superHeader div {
   position: absolute;
@@ -226,13 +232,28 @@ dd {
   padding: 0;
 }
 
+/* # Sticky Footer # */
+#wrap {
+  min-height: 100%;
+}
+
+#main-copy {
+  overflow: auto;
+  padding-bottom: 1.6em;
+}
+
+#footer {
+  position: relative;
+  margin-top: -1.6em;
+  height: 1.6em;
+  clear: both;
+}
+
 /* # Footer # */
 #footer {
   color: #666;
   background-color: transparent;
-  height: 1.6em;
   padding: 0;
-  clear: both;
 }
 
 #footer .left {
@@ -404,9 +425,9 @@ span.date {
   color: #333;
 }
 
-a.feed {
+#feed {
   position: absolute;
-  top: 5.4em;
+  top: 4.6em;
   right: 0.4em;
 }
 
