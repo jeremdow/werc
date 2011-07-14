@@ -2,7 +2,7 @@
   <div class="left">
     <a href="http://jeremdow.com" class="thisPage">home</a>
     <a href="http://blog.jeremdow.com">blog</a>
-    <a href="http://profiles.google.com/jeremdow" target="blank">profile</a>
+    <a href="http://profiles.google.com/jeremdow" target="blank">+profile</a>
     <a href="http://flickr.com/jeremdow" target="blank">flickr</a>
     <a href="http://facebook.com/jeremdow" target="blank">facebook</a>
     <a href="http://twitter.com/jeremdow" target="blank">twitter</a>
