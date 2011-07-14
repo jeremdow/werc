@@ -1,8 +1,8 @@
 <nav class="superHeader">
   <div class="left">
-    <a href="http://jeremdow.com">home</a>
+    <a href="http://profiles.google.com/jeremdow">+Jeremiah</a>
+    <a href="http://jeremdow.com">about</a>
     <a href="http://blog.jeremdow.com" class="thisPage">blog</a>
-    <a href="http://profiles.google.com/jeremdow" target="blank">profile</a>
     <a href="http://flickr.com/jeremdow" target="blank">flickr</a>
     <a href="http://facebook.com/jeremdow" target="blank">facebook</a>
     <a href="http://twitter.com/jeremdow" target="blank">twitter</a>
