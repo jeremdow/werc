@@ -3,19 +3,12 @@
 %   cat `{ get_lib_file top_bar.inc }
 
     <div id="search">
-      <script type="text/javascript">
-        function googleSiteSearch() {
-          var searchSite = "jeremdow.com";
-          var searchString = document.searchform.searchstr.value;
-          if (searchString != "") {
-            searchString = searchString.replace(/ /g,"+");
-            window.location = 'http://www.google.com/search?q=site%3a' + searchSite + '+' + searchString;
-          }
-          return false;
-        }
-      </script>
-      <form name=searchform onsubmit="return false;">
-        <input type="text" name="searchstr" size=40> <input type="submit" value="Search" onclick="googleSiteSearch();">
+      <form action='http://www.google.com/search'>
+        <div>
+          <input name='q' type='hidden' value='site:jeremdow.com' />
+          <input name='q' size='40' type='text' />
+          <input name='sa' type='submit' value='Search' />
+        </div>
       </form>
     </div>
 
