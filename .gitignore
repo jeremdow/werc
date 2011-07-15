@@ -1,4 +1,8 @@
 .hg*
 *.hg
 *.md
+*.ico
+*/*/_images
 sites/*/sitemap.*
+sites/blog*/2*
+
