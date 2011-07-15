@@ -16,7 +16,7 @@ a:hover { text-decoration: underline; }
 .superHeader {
   color: white;
   background-color: #2D2D2D;
-  height: 2.2em;
+  height: 29px;
   border-bottom: 1px solid black;
 }
 
@@ -26,9 +26,9 @@ a:hover { text-decoration: underline; }
   color: #CCC;
   background-color: transparent;
   font-size: 100%;
-  line-height: 2.3em;
+  line-height: 31px;
   margin: 0;
-  padding: 1ex;
+  padding: 8px 5px 6px;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ a:hover { text-decoration: underline; }
   color: white!important;
   font-weight:bold;
   border-top: 2px solid #DD4B39;
-  padding: .8ex 1ex 1ex;
+  padding-top: 6px;
 }
 
 .superHeader div {
@@ -55,7 +55,8 @@ a:hover { text-decoration: underline; }
 .midHeader {
   background-color: whiteSmoke;
   border: 0;
-  border-bottom: 1px solid #E5E5E5;
+  border-top: 1px solid #D2D2D2;
+  border-bottom: 1px solid #D2D2D2;
   height: 2em;
   padding: 1ex 2ex;
 }
@@ -90,33 +91,32 @@ a:hover { text-decoration: underline; }
 #menu {
   width: 100%;
   clear: both;
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #E5E5E5;
   margin: 0 0 0.8em 0;
   padding: 0;
 }
 
 #menu ul {
   background-color: whiteSmoke;
-}
-
-#menu ul ul {
-  position: absolute;
-  top: 7em;
-  left: 1ex;
-  background-color: #ffffff;
-}
-
-#menu ul ul ul {
-  position: static;
-  display: none;
-}
-
-#menu ul {
   margin: 0;
   padding: 0 0.3em;
   list-style-type: none;
   list-style-image: none;
   border: 0;
+}
+
+#menu ul ul {
+  width: 100%;
+  position: absolute;
+  top: 7.2em;
+  left: 0;
+  background-color: #ffffff;
+  border: 0;
+}
+
+#menu ul ul ul {
+  position: static;
+  display: none;
 }
 
 #menu li {
@@ -287,7 +287,7 @@ dd {
 
 #search {
   position: absolute;
-  top: 5ex;
+  top: 5.2ex;
   right: 1ex;
   text-align: right;
 }
@@ -429,7 +429,7 @@ span.date {
 
 #feed {
   position: absolute;
-  top: 4.6em;
+  top: 8.8ex;
   right: 0.4em;
 }
 
