@@ -1,6 +1,7 @@
 <div id="feed">
   <p>
-    <a class="feed" target="blank" href="http://feeds.feedburner.com/jeremdow"><img alt="Subscribe in a reader" src="http://jeremdow.com/_images/feed-icon16x16.png" /></a>
+    <a href="http://fusion.google.com/add?source=atgs&feedurl=http%3A//blog.jeremdow.com/index.rss"><img src="http://buttons.googlesyndication.com/fusion/add.gif" border="0" alt="Add to Google"></a>
+    <a class="feed" target="blank" href="http://blog.jeremdow.com/index.rss"><img alt="RSS" src="http://jeremdow.com/_images/feed-icon16x16.png" /></a>
   </p>
 </div>
 <div id="footer">
