@@ -106,10 +106,8 @@ a:hover { text-decoration: underline; }
 }
 
 #menu ul ul {
-  width: 100%;
   position: absolute;
   top: 7.2em;
-  left: 0;
   background-color: #ffffff;
   border: 0;
 }
