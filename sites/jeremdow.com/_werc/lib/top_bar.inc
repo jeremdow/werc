@@ -1,12 +1,12 @@
 <nav class="superHeader">
   <div class="left">
     <a href="http://profiles.google.com/jeremdow">+Jeremiah</a>
-    <a href="http://jeremdow.com" class="thisPage">about</a>
-    <a href="http://blog.jeremdow.com">blog</a>
-    <a href="http://flickr.com/jeremdow" target="blank">flickr</a>
-    <a href="http://facebook.com/jeremdow" target="blank">facebook</a>
-    <a href="http://twitter.com/jeremdow" target="blank">twitter</a>
-    <a href="http://git.jeremdow.com">git</a>
+    <a href="http://jeremdow.com" class="thisPage">About</a>
+    <a href="http://blog.jeremdow.com">Blog</a>
+    <a href="http://flickr.com/jeremdow" target="blank">Flickr</a>
+    <a href="http://facebook.com/jeremdow" target="blank">Facebook</a>
+    <a href="http://twitter.com/jeremdow" target="blank">Twitter</a>
+    <a href="http://git.jeremdow.com">Git</a>
   </div>
 
   <div class="right">
