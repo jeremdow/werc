@@ -1,0 +1,5 @@
+masterSite=jeremdow.com
+siteTitle='Jere`s blog'
+siteSubTitle='drupal, google, linux, publishing'
+conf_enable_blog
+conf_enable_comments
