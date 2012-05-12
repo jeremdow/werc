@@ -5,7 +5,7 @@
     <div id="search">
       <form action='http://www.google.com/search'>
         <div>
-          <input name='q' type='hidden' value='site:jeremdow.com' />
+          <input name='q' type='hidden' value='site:jeremdow.us' />
           <input name='q' size='40' type='text' />
           <input name='sa' type='submit' value='Search' />
         </div>

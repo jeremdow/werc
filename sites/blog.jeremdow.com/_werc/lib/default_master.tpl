@@ -1,1 +1,0 @@
-../../../jeremdow.com/_werc/lib/default_master.tpl
