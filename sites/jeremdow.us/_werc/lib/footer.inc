@@ -9,7 +9,7 @@
 
   <div class="right">
     <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-      2006-2012 <a rel="dct:publisher" href="http://jeremdow.us">Jeremiah Dow</a> | <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+      2006-2013 <a rel="dct:publisher" href="http://jeremdow.us">Jeremiah Dow</a> | <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
     </p>
   </div>
 
