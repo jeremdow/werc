@@ -3,5 +3,6 @@
 *.md
 *.ico
 */*/_images
+etc/users
 sites/*/sitemap.*
 sites/jeremdow.us/blog/2*
