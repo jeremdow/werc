@@ -12,9 +12,10 @@
     <meta charset="UTF-8">
 % # Legacy charset declaration for backards compatibility with non-html5 browsers.
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-% # Go import tag for `go get jeremdow.us/$repo`
-    <meta name="go-import" content="jeremdow.us%($req_path%) git git://jeremdow.us%($req_path%)">
 
+% # Go import tag for `go get jeremdow.us/$repo`
+% if(~ $REQUEST_URI *go-get*1)
+%   echo '<meta name="go-import" content="'jeremdow.us$"req_path' git git://jeremdow.us'$"req_path'">'
 % if(! ~ $#meta_description 0)
 %   echo '    <meta name="description" content="'$"meta_description'">'
 % if(! ~ $#meta_keywords 0)
