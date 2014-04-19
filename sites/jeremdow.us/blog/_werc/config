@@ -3,3 +3,5 @@ siteTitle='Jere`s blog'
 siteSubTitle='drupal, google, linux, publishing'
 conf_enable_blog
 conf_enable_comments
+#conf_max_posts_per_page=48
+conf_max_posts_per_page=128
