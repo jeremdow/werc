@@ -11,7 +11,7 @@
 
   <div class="right">
     <span class="doNotDisplay">Related links:</span>
-    <a href="http://git.jeremdow.us/?p=jeremdow.us.git;a=summary">site updates</a>
+    <a href="http://git.jeremdow.us/jeremdow.us">site updates</a>
     | <a href="/sitemap">site map</a>
   </div>
 </nav>
