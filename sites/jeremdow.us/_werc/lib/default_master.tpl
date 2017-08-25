@@ -3,7 +3,7 @@
 %   cat `{ get_lib_file top_bar.inc }
 
     <div id="search">
-      <form action='http://www.google.com/search'>
+      <form action='https://www.google.com/search'>
         <div>
           <input name='q' type='hidden' value='site:jeremdow.us' />
           <input name='q' size='40' type='text' />

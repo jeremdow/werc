@@ -377,6 +377,15 @@ input[type=text], textarea {
 
 textarea { padding: 1ex; }
 
+#main-copy textarea {
+  width: 100%;
+  height: 14ex;
+}
+
+#main-copy textarea:first-of-type {
+  height: 6ex;
+}
+
 input[type=text]:hover, input[type=text]:focus, textarea:hover, textarea:focus {
   border: 1px solid #4D90FE;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
